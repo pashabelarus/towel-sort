@@ -1,6 +1,3 @@
+const towelSort = (matrix) => (matrix || []).map((row , index) => (index + 1) % 2 === 0 ? row.reverse() : row).flat();
 
-// You should implement your task here.
-
-module.exports = function towelSort (matrix) {
-  return [];
-}
+module.exports = towelSort;
